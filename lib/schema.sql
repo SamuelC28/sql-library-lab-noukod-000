@@ -23,6 +23,6 @@ CREATE TABLE characters (
   name TEXT,
   species TEXT,
   motto TEXT,
-  subgenre_id INTEGER,
+  suries_id INTEGER,
   author_id INTEGER
 );
