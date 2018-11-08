@@ -12,12 +12,12 @@ CREATE TABLE Authors (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
--- CREATE TABLE Books (
---   id INTEGER PRIMARY KEY,
---   title TEXT,
---   year DATE,
---   series_id INTEGER
--- );
+CREATE TABLE Books (
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  year DATE,
+  series_id INTEGER
+);
 -- CREATE TABLE characters (
 --   id INTEGER PRIMARY KEY,
 --   name TEXT,
