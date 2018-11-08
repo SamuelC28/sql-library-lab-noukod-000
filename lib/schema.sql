@@ -18,8 +18,11 @@ CREATE TABLE Books (
   year DATE,
   series_id INTEGER
 );
--- CREATE TABLE characters (
---   id INTEGER PRIMARY KEY,
---   name TEXT,
---   sub-genre_id INTEGER
--- );
+CREATE TABLE characters (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  species TEXT,
+  motto TEXT,
+  subgenre_id INTEGER,
+  author_id INTEGER
+);
